@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Upcoming"
+        android:id="@+id/id_Upcoming"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:title="Top Rated"
+        android:id="@+id/id_TopRated"
+        app:showAsAction="never"
+        android:orderInCategory="101"/>
+    <item
+        android:title="Popular"
+        android:id="@+id/id_Popular"
+        app:showAsAction="never"
+        android:orderInCategory="102"/>
+    <item
+        android:title="Now Playing"
+        android:id="@+id/id_NowPlaying"
+        app:showAsAction="never"
+        android:orderInCategory="103"/>
+</menu>
